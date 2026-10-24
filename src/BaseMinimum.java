@@ -10,7 +10,7 @@ public class BaseMinimum extends Exception {
         super(message);
     }
 
-    // Конструктор с сообщением и причиной (другим исключением)
+    // Конструктор с сообщением и причиной 
     public BaseMinimum(String message, Throwable cause) {
         super(message, cause);
     }
